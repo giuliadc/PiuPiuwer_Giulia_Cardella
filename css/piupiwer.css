@@ -1,0 +1,137 @@
+body {
+	font-family: "Goudy Old Style", serif;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: rgb(255,255,255);
+    color: black;
+    text-align: left;
+    font-family: "Goudy Old Style", serif;
+	font-size: 80px;
+    padding: 20px;
+    background-color: rgb(248,231,14);
+    margin-bottom: 0px;
+    margin: 0px
+}
+h2 {
+    font-family: "Goudy Old Style", serif;
+    font-size: 20px;
+    color: black;
+    text-align: inherit;
+    padding: 9px;
+	background-color: rgb(248,231,14);
+    border-bottom: 10px solid black;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 00px
+}
+#pesquisa {
+    background-color: rgb(248,231,14);
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    float: right;
+    font-family: "Goudy Old Style", serif;
+    clear: right;
+}
+
+blockquote {
+	background-color: rgb(245,240,129);
+	border: 10px solid rgb(243,236,97);
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+    font-family: "Goudy Old Style", serif;
+    padding: 0px;
+    margin-right: 0px;
+    border-radius: 10px;
+}
+footer {
+    background-color: black;
+    font-family: "Goudy Old Style", serif;
+    color: rgb(243,236,97);
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+#menu{
+	color: black;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+.entrada{
+    float:right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+}
+p1{
+    text-align: center;
+    border: 10px solid black
+}
+.menu a{
+    text-indent: -99999px;
+}
+#logo {
+    float:left
+}
+#fala {
+    position: absolute;
+    left: 200px;
+}
+.cadastro-entrar li{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.cadastro-entrar{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+}
+.cadastro {
+    background-color: rgb(245,240,129);
+	border: 10px solid rgb(243,236,97);
+    float: right;
+    padding-right: 400px;
+    margin-right: 20px;
+    font-family: "Goudy Old Style", serif;  
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.cadastrolink{
+    
+}
+.entrar{
+    background-image: url(entrar.png);
+    width: 50px;
+    height: 30px;
+    text-indent: -99999px;
+    
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color: rgb(248,231,14);
+    list-style:none;
+}
+#menu ul li { 
+    display: inline; 
+}
+
+main {
+    padding-bottom: 80px;
+    border-bottom: 80px;
+}
+#diferente{
+    float: right;
+}

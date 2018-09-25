@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Piupiwer</title>
+        <link rel="icon" href="img/canarinho.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href= "css/piupiwer.css">
+        <link rel="stylesheet" href="css/feed.css">
+    </head>
+    
+    <body>
+        <div id="Cabeçalho">
+            <img src="img/canarinho3.png" id="logo">
+            <h1>PIUPIWER</h1>
+            <ul class="sair">
+                        <li><a href="Untitled-4.html">Sair</a>
+                        </li>
+                </ul>
+            <form action="#" method="post" id="pesquisa">
+                <table>
+                    <tr>
+                       <td align="top"><input type="text" placeholder="Pesquisar..."></td>
+                       <td align="bottom"><input type="image" id="image" alt="Pesquisar" src="img/lupa.png" style="width: 20px"></td>
+                    </tr>
+                </table>
+            </form>
+            <nav id="menu">
+                <ul>
+                    <li><a href="feed.html">Página Inicial</a></li>
+                    <li><a href="Perfil.html">Seu Perfil</a></li>
+                </ul>
+            </nav>
+            <h2>A rede social que cresce e voa ao seu lado</h2>
+        </div>
+        <main>
+            <aside class="navegacao-site">
+                <h1>@GiuliaDuo</h1>
+                <nav>
+                    <ul class="Dados">
+                        <li>Giulia Duo Cardella</li>
+                        <li>17 anos</li>
+                        <li>Uma pessoa tranquila que gosta de música, HQ e pizza.</li>
+                        <li><a class="amigos" href = "listadeamigos.html"> Lista de Amigos</a></li>
+                        <li id="oi"><p id="especial"><label for="review">Seu Piu</label> <small class="caracteres"></small></p>
+                            <form action="" method="post" id="formoi">
+                                <textarea id="novopiu" cols="45" id="campo" rows="5" onkeyup="mostrarResultado(this.value,140,'spcontando');contarCaracteres(this.value,140,'sprestante')"></textarea><br />
+                        <div id="piupiu">
+                            <span id="spcontando" style="font-family:Georgia;">Ainda não temos nada digitado..</span><br />
+                            <span id="sprestante" style="font-family:Georgia;"></span>
+                        </div>
+                        </form>
+                        </li>
+                        <li><button id="enviar" onclick="adicionapiu('@giulia', 'giulia1.png')" class="botao piu">Enviar</button>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>          
+            <h3>Postagens</h3>
+                <div id="content">
+                    <ul id="posts">
+                    <table id="tab" class="tab">
+                        <tbody id="tab1"> 
+                            <tr id=0>
+                                <td>
+                                    <table>
+                                        <tr height = 5>
+                                        <td class="foto"><img src="giulia1.png" href="Perfil.html" width= 30></td>
+                                        <td class="usuario"><blockquote id ="giulia">@giulia</blockquote>  </td>
+                                        <td class="curtidas"><blockquote id="diferente 1"> Curtidas: 0 </blockquote></td>
+                                        </tr>
+                                        </table>
+                                        <table>
+                                        <tr height = 5>
+                                            <td class="Texto"><p> Oláaaa </p></td>
+                                            <td class="botaocurtir"><input type="image" id="curtir1" alt="Pesquisar" src="img/botao.png" style="width: 20px" onclick="curtir(0)" class="curtir"></td>
+                                            <td class="botaoexcluir"><input type="image" id="delete" alt="excluir" src="img/delete.png" style="width: 20px" onclick="deleteRow(0)" class="delete"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr id=1>
+                                <td>
+                                    <table>
+                                        <tr height = 5>
+                                        <td class="foto"><img src="giulia1.png" href="Perfil.html" width=30 id="foto"> </td>
+                                        <td class="usuario"><blockquote id ="giulia">@giulia</blockquote> </td>
+                                        <td class="curtidas"><blockquote id="diferente 2"> Curtidas: 0 </blockquote></td>
+                                        </tr>
+                                        </table>
+                                        <table>
+                                        <tr height = 5>
+                                            <td class="Texto" width=800><p> Showwww </p></td>
+                                            <td class="botaocurtir"><input type="image" id="image" alt="Curtir" src="img/botao.png" style="width: 20px" onclick="curtir(1)" class="curtir"></td>
+                                            <td class="botaoexcluir"><input type="image" id="curtir2" alt="excluir" src="img/delete.png" style="width: 20px" onclick="deleteRow(1)" class="delete"></td>
+                                        </tr> 
+
+                                    </table>
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+                </ul>
+            </div>
+        </main>
+        <footer>
+			&copy; Canarinho Soluções
+		</footer>
+        <script src= "js/adicionapiu.js"></script>
+        <script src= "js/curtir-deletar.js"></script>
+        <script src= "js/caracteres.js"></script>
+        <script src= "js/adicionapiu.js"></script>
+        <script src="js/externo.js"></script>
+        
+        </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Piupiwer</title>
+        <link rel="icon" href="canarinho.png">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href= "piupiwer.css">
+    
+    </head>
+    
+    <body>
+        <main>
+        <div id="Cabeçalho">
+            <img src="canarinho3.png" id="logo">
+            <h1>PiuPiwer</h1>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#">Entrar</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                </ul>
+            </nav>
+            <aside class="entrada">
+                <li><p1>Entrar</p1></li>
+                <li><input type=text name="nome" value="Username ou E-mail"></li>
+                <li><input type=text name="nome" value="Senha"></li>
+                <li><input type=button value="Entrar" onsubmit="mostra()"></li>
+            </aside>
+            <form action="#" method="post" id="pesquisa">
+                <table>
+                    <tr>
+                       <td align="top"><input type="text" placeholder="Pesquisar..."></td>
+                       <td align="bottom"><input type="image" id="image" alt="Pesquisar" src="lupa.png" style="width: 20px"></td>
+                    </tr>
+                </table>
+            </form>
+            <h2>A rede social que cresce e voa ao seu lado</h2>
+        </div>
+        <aside class="cadastro">
+            <section class="container">
+                <h2 id="titulo-form"> Cadastro</h2>
+                <form>
+                    <div class="grupo">
+                        <label for="nome">Nome:</label>
+                        <input id="nome" name="nome" type="text" placeholder="digite seu o nome" class="campo">
+                    </div>
+                    <div class="grupo">
+                        <label for="email">E-mail:</label>
+                        <input id="email" name="email" type="text" placeholder="digite o seu e-mail" class="campo campo-medio">
+                    </div>
+                    <div class="grupo">
+                        <label for="altura">Data de nascimento:</label>
+                        <input id="altura" name="altura" type="text" placeholder="digite sua data de nascimento" class="campo campo-medio">
+                    </div>
+                    <div class="grupo">
+                        <label for="senha">Senha:</label>
+                        <input id="senha" name="senha" type="text" placeholder="crie uma senha" class="campo campo-medio">
+                    </div>
+                    <div class="grupo">
+                        <label for="gordura">Confirme a senha:</label>
+                        <input id="gordura" type="text" placeholder="confirme sua senha" class="campo campo-medio">
+                    </div>
+                    <button id="criar" class="botao bto-principal">Cadastrar</button>
+                </form>
+            </section>
+        </aside>
+        <blockquote >
+            <p> Piupiwer é uma plataforma para você desabafar, compartilhar sobre seu dia, sobre seus gostos e fazer novos amigos! Para fazer parte e começar a compartilhar seus dias, basta fazer o cadastro ao lado. </p>
+        </blockquote>
+        <img src="canari.png" id="fala">
+        </main>
+        <footer>
+			&copy; Canarinho Soluções
+		</footer>
+    </body>
+</html>

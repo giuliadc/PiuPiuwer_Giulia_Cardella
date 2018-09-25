@@ -1,0 +1,83 @@
+.sair {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+    list-style:none;
+}
+p, .p1{
+    background-color: rgb(245,240,129);
+	border: 8px solid rgb(243,236,97);
+    border-radius: 10px;
+	box-sizing: border-box;
+    font-family: "Arial", serif;
+    width: 800px;
+}
+#posts{
+    list-style:none;
+    padding-right: 500px;
+}
+#posts li{
+    
+}
+.imagem1{
+    background-image: url("giulia1.png");
+    width: 20px;
+}
+#posts a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+    float:left;
+    border: 10px
+}
+.navegacao-site {
+	text-align: center;
+	background-color: whitesmoke;
+	color: black;
+}
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+.navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border: 10px solid black;   
+    border-radius: 10px
+}
+.caixadetexto{
+    color:#990000; 
+    font-weight:400; 
+    margin-top:25px; 
+    padding-left:5px; 
+    font-size:8px;
+}
+.Dados{
+    list-style: none;
+}
+h3 {
+    font-family: "Arial", serif;
+    font-size: 30px;
+    text-align: center;
+}
+.curtir{
+    float: right;
+
+}
+
+p {
+    width: 750px;
+}
+td {
+    padding-right: 10px;
+}
+#especial{
+    width: 400px;
+}

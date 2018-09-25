@@ -1,0 +1,69 @@
+.sair {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+    list-style:none;
+}
+#posts{
+    list-style:none;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.imagem1{
+    background-image: url("giulia1.png");
+}
+#posts a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+    float:left;
+    border: 10px
+}
+p {
+    background-color: rgb(245,240,129);
+	border: 8px solid rgb(243,236,97);
+    border-radius: 10px;
+	box-sizing: border-box;
+    font-family: "Arial", serif;
+}
+h3 {
+    font-family: "Arial", serif;
+    font-size: 30px;
+    text-align: center;
+}
+.navegacao-site {
+	text-align: center;
+	background-color: whitesmoke;
+	color: black;
+}
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+    text-align: center;
+}
+.minha_foto, .navegacao-site {
+	box-sizing: border-box;
+	border: 10px solid black;
+    border-radius: 10px
+}
+.minha_foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.Dados{
+    list-style: none;
+}
+.curtir{
+    float: right;
+    position: relative;
+    bottom: 50px;
+}
